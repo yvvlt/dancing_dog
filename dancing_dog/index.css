@@ -1,0 +1,19 @@
+body {
+    
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.dog-container {
+    animation: shake 0.5s infinite alternate;
+}
+
+@keyframes shake {
+    0% { transform: rotate(-5deg); }
+    100% { transform: rotate(5deg); }
+}
+
+#dog {
+    width: 200px;
+}
